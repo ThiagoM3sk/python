@@ -1,0 +1,7 @@
+algo = input('Digite algo:')
+print('Você digitou {}'.format(algo))
+print('É só alfabeto?', algo.isalpha())
+print('É só númerico?', algo.isnumeric())
+print('É em Caps?', algo.isupper())
+print('É minusculo?', algo.islower())
+print('É alfanúmerico?', algo.isalnum())
