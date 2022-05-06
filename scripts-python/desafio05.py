@@ -1,10 +1,4 @@
-algo = input('Digite algo:')
-print('Você digitou {}'.format(algo))
-print('Qual o tipo?', type(algo))
-print('É só alfabeto?', algo.isalpha())
-print('É só númerico?', algo.isnumeric())
-print('É em Caps?', algo.isupper())
-print('É minusculo?', algo.islower())
-print('É alfanúmerico?', algo.isalnum())
-print('Só tem espaço?', algo.isspace())
-print('Está capitalizada?', algo.istitle())
+num1 = int(input('Digite um valor:'))
+ante = num1 - 1
+suce = num1 + 1
+print('Você digitou {}. Seu antecessor é {} e seu sucessor é {}'.format(num1, ante, suce))
