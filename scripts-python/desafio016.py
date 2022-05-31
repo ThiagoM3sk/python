@@ -1,3 +1,3 @@
-from math import floor
+from math import trunc
 num = float(input('Digite um número: '))
-print('Você digitou {:.2f} e seu número inteiro arredondado para baixo é {}'.format(num, floor(num)))
+print('Você digitou {} e sua porção inteira é {}'.format(num, trunc(num)))
